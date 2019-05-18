@@ -8,7 +8,7 @@ import platform
 
 def load_pickle(f):
     version = platform.python_version_tuple()
-    if version[0] == '2':
+    if vesion[0] == '2':
         return  pickle.load(f)
     elif version[0] == '3':
         return  pickle.load(f, encoding='latin1')
